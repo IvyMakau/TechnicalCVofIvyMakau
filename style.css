@@ -1,0 +1,155 @@
+body
+{
+ margin: 0px;
+ padding:0;
+ background-color: lightskyblue;
+}
+.container
+{
+display : grid;
+grid-template-columns: 1fr
+
+}
+.navigater-wrapper{
+    display : flex;
+    justify-content : space-between;
+    padding: 40px;
+}
+.nav-wrapper
+{
+    display : flex;
+    justify-content : space-between;
+    padding: 40px;
+}
+.left-side
+{
+    display :flex;
+}
+
+.navigater-wrapper > .left-side > div
+{  
+    margin-right: 25px;
+    font-size: large;
+    text-transform: uppercase;
+    
+} 
+.navigater-link
+{
+ height: 22px;
+ border-bottom: 1pxsolid transparent;
+ transition:border-bottom  0.5s ;
+}
+.navigater-link a 
+{
+ color : #888888;
+ text-decoration : none;
+ transition: color 0.5s ;
+}
+.navigater-link:hover
+{
+border-bottom: 1px solid blue;
+}
+.navigater-link a:hover
+{
+color: purple ;
+}
+.home-img
+{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.note
+{
+    color:purple;
+}
+
+.portfolio-wrapper
+{
+    position: relative;   
+}
+.port-img
+{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+
+}
+.image-text
+{
+
+position: absolute;
+top:0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:100%;
+padding-left:400px;
+font-weight: 700;
+color: lightcyan;
+}
+
+.column
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-content
+{
+    padding :10px;
+
+    
+}
+
+.profile-image
+{
+    height: 100px;
+  width: 100%;
+   
+}
+.image-text:hover .Subtitle
+{
+    font-weight: 5000000;
+    color: lightskyblue;
+}
+.References
+{
+    padding-left: 1000px;
+    color: purple;
+}
+.icon-bar {
+    position: absolute;
+    top: 50%;
+    justify-content : space-between;
+   
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 50px;
+    justify-content : space-between;
+  }
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+
+
+
